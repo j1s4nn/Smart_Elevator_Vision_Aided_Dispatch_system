@@ -1,0 +1,16 @@
+# ── Core vision & ML ─────────────────────────────────────────────────────────
+# PyTorch: install separately depending on your hardware (see README.md)
+#   GPU (CUDA 11.8):  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+#   CPU only:         pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+
+opencv-python>=4.8.0
+scipy>=1.11.0
+numpy>=1.24.0
+
+# ── YOLOv5 (loaded via torch.hub — no manual install needed) ─────────────────
+# The hub pull requires: gitpython, requests, tqdm, PyYAML, Pillow
+gitpython>=3.1.30
+requests>=2.28.0
+tqdm>=4.65.0
+PyYAML>=6.0
+Pillow>=9.5.0
